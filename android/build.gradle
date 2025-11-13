@@ -11,10 +11,6 @@ buildscript {
         repositories {
             google()
             mavenCentral()
-            // JCenter is going read-only repository indefinitely
-            // Gradle is discouraging jcenter to avoid to avoid build issues - pipeline
-            // ref: https://blog.gradle.org/jcenter-shutdown
-            jcenter()
         }
 
         dependencies {
@@ -43,7 +39,6 @@ android {
 repositories {
     google()
     mavenCentral()
-    jcenter()
 }
 
 dependencies {
